@@ -429,7 +429,7 @@
 
     $.fn.skippr.defaults = {
         transition: 'slide',
-        speed: 5000,
+        speed: 1000,
         easing: 'easeOutQuart',
         navType: 'block',
         childrenElementType : 'div',
