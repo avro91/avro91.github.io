@@ -1,8 +1,6 @@
-/**
- * Created by razroo on 8/4/14.
- */
 document.addEventListener('DOMContentLoaded',domloaded,false);
 function domloaded(){
+
 var STAR_COLOURS = ['#ffffff', '#ffe9c4', '#d4fbff'], // because not all stars are white
     HEIGHT = 400, // height of the canvas
     WIDTH = 800; // width of the canvas
@@ -16,20 +14,25 @@ function random (min, max) {
 
 /**
  * Generate a new star field with starNumber stars and draw
- * it onto the provided canvas context
+ * it onto the provided c ctx
  */
-function starField (context, starNumber) {
+function starField (ctx, starNumber) {
     var x, // x position of the star
         y, // y position of the star
         brightness, // brightness of the star
-        radius; // radius of the star
+        radius, // radius of the star
+        grd; //gradient illusion for the night sky
 
     // draw the blank night sky
-    context.fillStyle = '#000';
-    context.fillRect(0, 0, WIDTH, HEIGHT);
+    grd = ctx.createLinearGradient(WIDTH / 2, 0, WIDTH / 2, HEIGHT);
+    // Add colors
+    grd.addColorStop(0.000, 'rgb(0,10,21)');
+    grd.addColorStop(1.000, 'rgb(0,0,0)');
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
     // save the previous canvas context state
-    context.save();
+    ctx.save();
 
     for (var i = 0; i < starNumber; i++) {
         x = Math.random() * WIDTH; // random x position
@@ -38,36 +41,36 @@ function starField (context, starNumber) {
         brightness = random(80, 100) / 100;
 
         // start drawing the star
-        context.beginPath();
+        ctx.beginPath();
         // set the brightness of the star
-        context.globalAlpha = brightness;
+        ctx.globalAlpha = brightness;
         // choose a random star colour
-        context.fillStyle = STAR_COLOURS[random(0, STAR_COLOURS.length)];
+        ctx.fillStyle = STAR_COLOURS[random(0, STAR_COLOURS.length)];
         // draw the star (an arc of radius 2 * pi)
-        context.arc(x, y, radius, 0, Math.PI * 2, true);
+        ctx.arc(x, y, radius, 0, Math.PI * 2, true);
         // fill the star and stop drawing it
-        context.fill();
-        context.closePath();
+        ctx.fill();
+        ctx.closePath();
     }
 
-    // restore the previous context state
-    context.restore();
+    // restore the previous ctx state
+    ctx.restore();
 }
 
 /**
  * Kick everything off
  */
 function init () {
-    // find the canvas and create its context
-    var canvas = document.getElementsByTagName('canvas')[0],
-        context = canvas.getContext('2d');
+    // find the c and create its ctx
+    var c = document.getElementsByTagName('canvas')[0],
+        ctx = c.getContext('2d');
 
     // set up the width and height
-    canvas.width = WIDTH;
-    canvas.height = HEIGHT;
+    c.width = WIDTH;
+    c.height = HEIGHT;
 
     // create a star field
-    starField(context, 300);
+    starField(ctx, 300);
 
 }
 
