@@ -241,15 +241,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 23, ../sass/_factory.scss */
 #rw {
   width: 300px;
-  height: 350px;
-  left: 25%;
-  margin-top: 145px;
-  margin-left: 500px;
+  height: 290px;
+  bottom: 50%;
   float: left;
   position: absolute;
 }
 
-/* line 35, ../sass/_factory.scss */
+/* line 31, ../sass/_factory.scss */
 .stand {
   width: 10px;
   height: 13px;
@@ -258,17 +256,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 279px;
 }
 
-/* line 43, ../sass/_factory.scss */
+/* line 39, ../sass/_factory.scss */
 #stand1 {
   left: 251px;
 }
 
-/* line 46, ../sass/_factory.scss */
+/* line 42, ../sass/_factory.scss */
 #stand2 {
   left: 321px;
 }
 
-/* line 50, ../sass/_factory.scss */
+/* line 46, ../sass/_factory.scss */
 #band {
   width: 100px;
   height: 13px;
@@ -280,7 +278,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 241px;
 }
 
-/* line 61, ../sass/_factory.scss */
+/* line 57, ../sass/_factory.scss */
 .wheel {
   width: 12px;
   height: 12px;
@@ -290,7 +288,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /*-webkit-animation: goWheels 0.5s linear infinite normal;*/
 }
 
-/* line 70, ../sass/_factory.scss */
+/* line 66, ../sass/_factory.scss */
 .wheel:after {
   content: "";
   display: block;
@@ -301,7 +299,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 5px;
 }
 
-/* line 81, ../sass/_factory.scss */
+/* line 77, ../sass/_factory.scss */
 #wheel1 {
   left: 5px;
   -moz-animation: goWheels 0.5s 0.1s linear infinite normal;
@@ -309,7 +307,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goWheels 0.5s 0.1s linear infinite normal;
 }
 
-/* line 85, ../sass/_factory.scss */
+/* line 81, ../sass/_factory.scss */
 #wheel2 {
   left: 31px;
   -moz-animation: goWheels 0.5s 0.2s linear infinite normal;
@@ -317,7 +315,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goWheels 0.5s 0.2s linear infinite normal;
 }
 
-/* line 89, ../sass/_factory.scss */
+/* line 85, ../sass/_factory.scss */
 #wheel3 {
   left: 56px;
   -moz-animation: goWheels 0.5s 0.3s linear infinite normal;
@@ -325,7 +323,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goWheels 0.5s 0.3s linear infinite normal;
 }
 
-/* line 93, ../sass/_factory.scss */
+/* line 89, ../sass/_factory.scss */
 #wheel4 {
   left: 79px;
   -moz-animation: goWheels 0.5s 0.4s linear infinite normal;
@@ -333,7 +331,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goWheels 0.5s 0.4s linear infinite normal;
 }
 
-/* line 98, ../sass/_factory.scss */
+/* line 94, ../sass/_factory.scss */
 .package {
   width: 20px;
   height: 20px;
@@ -346,7 +344,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goPackage 2s 0.3s linear infinite normal;
 }
 
-/* line 110, ../sass/_factory.scss */
+/* line 106, ../sass/_factory.scss */
 #mainFactory {
   width: 150px;
   height: 100px;
@@ -356,7 +354,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 91px;
 }
 
-/* line 119, ../sass/_factory.scss */
+/* line 115, ../sass/_factory.scss */
 #door {
   width: 25px;
   height: 40px;
@@ -366,7 +364,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 155px;
 }
 
-/* line 128, ../sass/_factory.scss */
+/* line 124, ../sass/_factory.scss */
 #door:after {
   content: "";
   display: block;
@@ -379,7 +377,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 15px;
 }
 
-/* line 141, ../sass/_factory.scss */
+/* line 137, ../sass/_factory.scss */
 .window {
   width: 25px;
   height: 25px;
@@ -395,19 +393,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goWindow 3s infinite alternate;
 }
 
-/* line 151, ../sass/_factory.scss */
+/* line 147, ../sass/_factory.scss */
 #window1 {
   top: 216px;
   left: 109px;
 }
 
-/* line 156, ../sass/_factory.scss */
+/* line 152, ../sass/_factory.scss */
 #window2 {
   top: 216px;
   left: 197px;
 }
 
-/* line 161, ../sass/_factory.scss */
+/* line 157, ../sass/_factory.scss */
 #roof1 {
   width: 0px;
   height: 0px;
@@ -419,7 +417,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 91px;
 }
 
-/* line 172, ../sass/_factory.scss */
+/* line 168, ../sass/_factory.scss */
 #roof2 {
   width: 0px;
   height: 0px;
@@ -431,7 +429,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 155px;
 }
 
-/* line 183, ../sass/_factory.scss */
+/* line 179, ../sass/_factory.scss */
 #chim1 {
   width: 25px;
   height: 80px;
@@ -441,7 +439,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 155px;
 }
 
-/* line 192, ../sass/_factory.scss */
+/* line 188, ../sass/_factory.scss */
 #chim2 {
   width: 25px;
   height: 102px;
@@ -451,7 +449,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 198px;
 }
 
-/* line 201, ../sass/_factory.scss */
+/* line 197, ../sass/_factory.scss */
 .stripe {
   width: 25px;
   height: 10px;
@@ -459,31 +457,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
 }
 
-/* line 208, ../sass/_factory.scss */
+/* line 204, ../sass/_factory.scss */
 #stripe1 {
   top: 128px;
   left: 155px;
 }
 
-/* line 212, ../sass/_factory.scss */
+/* line 208, ../sass/_factory.scss */
 #stripe2 {
   top: 145px;
   left: 155px;
 }
 
-/* line 216, ../sass/_factory.scss */
+/* line 212, ../sass/_factory.scss */
 #stripe3 {
   top: 105px;
   left: 198px;
 }
 
-/* line 220, ../sass/_factory.scss */
+/* line 216, ../sass/_factory.scss */
 #stripe4 {
   top: 123px;
   left: 198px;
 }
 
-/* line 225, ../sass/_factory.scss */
+/* line 221, ../sass/_factory.scss */
 .smoke {
   width: 19px;
   height: 18px;
@@ -491,7 +489,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 0;
 }
 
-/* line 232, ../sass/_factory.scss */
+/* line 228, ../sass/_factory.scss */
 .sCloud {
   width: 60%;
   height: 0.7em;
@@ -500,7 +498,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 18px;
 }
 
-/* line 240, ../sass/_factory.scss */
+/* line 236, ../sass/_factory.scss */
 #smoke1 {
   top: 91px;
   left: 157px;
@@ -521,7 +519,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goSmoke 2s 0.3s infinite normal;
 }
 
-/* line 249, ../sass/_factory.scss */
+/* line 245, ../sass/_factory.scss */
 #smoke2 {
   top: 71px;
   left: 200px;
@@ -542,23 +540,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: goSmoke 2s 1.3s infinite normal;
 }
 
-/* line 258, ../sass/_factory.scss */
+/* line 254, ../sass/_factory.scss */
 #sCloud1, #sCloud4 {
   top: 2px;
 }
 
-/* line 262, ../sass/_factory.scss */
+/* line 258, ../sass/_factory.scss */
 #sCloud2, #sCloud5 {
   left: 6px;
 }
 
-/* line 266, ../sass/_factory.scss */
+/* line 262, ../sass/_factory.scss */
 #sCloud3, #sCloud6 {
   top: 6px;
   left: 7px;
 }
 
-/* line 271, ../sass/_factory.scss */
+/* line 267, ../sass/_factory.scss */
 #tree {
   width: 54px;
   height: 87px;
@@ -567,7 +565,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 60px;
 }
 
-/* line 279, ../sass/_factory.scss */
+/* line 275, ../sass/_factory.scss */
 #branch {
   width: 9px;
   height: 37px;
@@ -577,7 +575,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 23px;
 }
 
-/* line 288, ../sass/_factory.scss */
+/* line 284, ../sass/_factory.scss */
 .leaves {
   width: 35px;
   height: 35px;
@@ -586,33 +584,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 18px;
 }
 
-/* line 296, ../sass/_factory.scss */
+/* line 292, ../sass/_factory.scss */
 #leaves1 {
   top: 20px;
 }
 
-/* line 299, ../sass/_factory.scss */
+/* line 295, ../sass/_factory.scss */
 #leaves2 {
   left: 10px;
 }
 
-/* line 302, ../sass/_factory.scss */
+/* line 298, ../sass/_factory.scss */
 #leaves3 {
   top: 20px;
   left: 19px;
 }
 
-/* line 1, ../sass/_rs.scss */
+/* note to self due to thruster and rocket wings in addition to the height
+there is a need for there to be an extra height of 15px in adition to rocket*/
+/* line 4, ../sass/_rs.scss */
 #rocket_container {
   position: absolute;
   z-index: 4;
-  height: 250px;
+  height: 155px;
   width: 100px;
-  margin-top: 245px;
-  margin-left: 400px;
+  bottom: 50%;
+  right: 0;
+  margin: 0 auto;
 }
 
-/* line 10, ../sass/_rs.scss */
+/* line 14, ../sass/_rs.scss */
 #rocket {
   position: absolute;
   width: 50px;
@@ -621,7 +622,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: blue;
 }
 
-/* line 21, ../sass/_rs.scss */
+/* line 23, ../sass/_rs.scss */
 #rocket-windows:before, #rocket-windows:after {
   content: '';
   position: absolute;
@@ -637,16 +638,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: -webkit-linear-gradient(315deg, #9ecfd7 0%, #9ecfd7 6%, #aedbdf 7%, #aedbdf 10%, #9ecfd7 10%, #9ecfd7 22%, #aedbdf 22%, #aedbdf 33%, #9ecfd7 33%, #9ecfd7 40%, #aedbdf 40%, #aedbdf 42%, #9ecfd7 42%, #9ecfd7 76%, #aedbdf 76%, #aedbdf 87%, #9ecfd7 87%);
   background: linear-gradient(135deg, #9ecfd7 0%, #9ecfd7 6%, #aedbdf 7%, #aedbdf 10%, #9ecfd7 10%, #9ecfd7 22%, #aedbdf 22%, #aedbdf 33%, #9ecfd7 33%, #9ecfd7 40%, #aedbdf 40%, #aedbdf 42%, #9ecfd7 42%, #9ecfd7 76%, #aedbdf 76%, #aedbdf 87%, #9ecfd7 87%);
 }
-/* line 44, ../sass/_rs.scss */
+/* line 46, ../sass/_rs.scss */
 #rocket-windows:before {
   top: 60px;
 }
-/* line 47, ../sass/_rs.scss */
+/* line 49, ../sass/_rs.scss */
 #rocket-windows:after {
   top: 30px;
 }
 
-/* line 52, ../sass/_rs.scss */
+/* line 54, ../sass/_rs.scss */
 #letter-r {
   position: absolute;
   font-family: Courier;
@@ -657,7 +658,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 95px;
 }
 
-/* line 63, ../sass/_rs.scss */
+/* line 65, ../sass/_rs.scss */
 #rocket-wings:before, #rocket-wings:after {
   content: '';
   bottom: -7px;
@@ -666,7 +667,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 16px;
   height: 40px;
 }
-/* line 71, ../sass/_rs.scss */
+/* line 73, ../sass/_rs.scss */
 #rocket-wings:before {
   left: -16px;
   -moz-transform: skew(0deg, -40deg);
@@ -674,7 +675,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-transform: skew(0deg, -40deg);
   transform: skew(0deg, -40deg);
 }
-/* line 75, ../sass/_rs.scss */
+/* line 77, ../sass/_rs.scss */
 #rocket-wings:after {
   right: -16px;
   -moz-transform: skew(0deg, 40deg);
@@ -683,17 +684,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: skew(0deg, 40deg);
 }
 
-/* line 81, ../sass/_rs.scss */
+/* line 83, ../sass/_rs.scss */
 #thruster {
   position: absolute;
   z-index: -1;
   margin-left: -5px;
-  bottom: 95px;
+  bottom: 0;
   border: 30px solid transparent;
   border-bottom: 40px solid blue;
 }
 
-/* line 90, ../sass/_rs.scss */
+/* line 92, ../sass/_rs.scss */
 #rocket-ignit {
   position: absolute;
   z-index: -2;
@@ -750,6 +751,18 @@ canvas {
 }
 
 /* line 51, ../sass/main.scss */
+#scene_container {
+  position: absolute;
+  height: 50%;
+  width: 920px;
+  margin: 0 auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 64, ../sass/main.scss */
 #date {
   float: left;
   position: relative;
@@ -764,7 +777,7 @@ canvas {
   text-transform: uppercase;
 }
 
-/* line 65, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 #bottom {
   position: absolute;
   margin-top: 0;
