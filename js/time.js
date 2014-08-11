@@ -22,7 +22,12 @@ function domloaded(){
         m = parseInt(secondsLeft / 60);
         s = parseInt(secondsLeft % 60);
     //format and insert into element
-        countdown.innerHTML = d + 'd, ' + h + 'h,' + m + 'm, ' + s + 's' +'<p>'+'until next launch'+'</p>';
+        countdown.innerHTML ='<p>' + d + '<span>' + 'd, ' + '</span>' +
+                              h + '<span>' + 'h, ' + '</span>' +
+                              m + '<span>' + 'm, ' + '</span>' +
+                              s + '<span>' + 's' + '</span>' + '</p>' +
+                             '<p>'+'until next launch'+'</p>';
+
     }, 1000);
 
 
