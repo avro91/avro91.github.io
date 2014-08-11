@@ -711,11 +711,13 @@ there is a need for there to be an extra height of 15px in adition to rocket*/
 /* line 1, ../sass/_launch_pad.scss */
 #launch_pad {
   position: absolute;
-  height: 300px;
-  width: 260px;
+  height: 301px;
+  width: 270px;
   background: url("/img/launch_pad.svg");
-  margin-left: 720px;
-  margin-top: -75px;
+  bottom: 50%;
+  right: 0;
+  margin-right: -72px;
+  margin-bottom: -55px;
 }
 
 @font-face {
@@ -794,9 +796,4 @@ canvas {
   height: 25%;
   width: 100%;
   background-color: green;
-}
-
-/* line 88, ../sass/main.scss */
-#metal_bars:hover {
-  fill: yellow;
 }
