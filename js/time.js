@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',domloaded,false);
 function domloaded(){
     // set time you want countdown to end
-    var targetDate  = new Date('August 13, 2014').getTime();
+    var targetDate  = new Date('August 28, 2014').getTime();
     // variables for time units
     var d, h, m, s;
     // input into tag element

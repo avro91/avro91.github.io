@@ -2,8 +2,10 @@ document.addEventListener('DOMContentLoaded',domloaded,false);
 function domloaded(){
 
 var STAR_COLOURS = ['#ffffff', '#ffe9c4', '#d4fbff'], // because not all stars are white
-    HEIGHT = 400, // height of the canvas
-    WIDTH = 800; // width of the canvas
+    // height of the canvas
+    HEIGHT = 400,
+    // width of the canvas
+    WIDTH = 800;
 
 /**
  * Generate a random integer between min and max
