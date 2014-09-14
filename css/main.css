@@ -8594,6 +8594,43 @@ there is a need for there to be an extra height of 15px in adition to rocket*/
   margin-left: 900px;
 }
 
+/* line 76, ../sass/_fence.scss */
+.side_fence {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin-left: -65px;
+  margin-top: 54px;
+  background: url("/img/Barbed_fence.svg");
+  -moz-transform: rotate(-45deg) skew(-44deg, -30deg);
+  -ms-transform: rotate(-45deg) skew(-44deg, -30deg);
+  -webkit-transform: rotate(-45deg) skew(-44deg, -30deg);
+  transform: rotate(-45deg) skew(-44deg, -30deg);
+}
+
+/* line 1, ../sass/_mountain.scss */
+.mountain {
+  position: absolute;
+  display: block;
+  z-index: 4;
+  width: 200px;
+  height: 200px;
+  background: white;
+}
+
+/* line 10, ../sass/_mountain.scss */
+.moon {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: 5;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 0 100px white;
+  border-radius: 30px;
+  margin-top: -250px;
+}
+
 @font-face {
   font-family: lintel;
   src: url(/Lintel-Regular.otf);
@@ -8643,6 +8680,12 @@ canvas {
 }
 
 /* line 64, ../sass/main.scss */
+canvas {
+  display: block;
+  z-index: 1;
+}
+
+/* line 69, ../sass/main.scss */
 #scene_container {
   position: absolute;
   height: 50%;
@@ -8654,34 +8697,31 @@ canvas {
   bottom: 0;
 }
 
-/* line 76, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 #date {
-  float: left;
+  margin: 0 auto;
   position: relative;
   z-index: 3;
   color: white;
-  width: 100%;
   height: 50px;
   text-align: center;
   line-height: 50px;
-  font-family: lintel;
   font-size: 20px;
   text-transform: uppercase;
   margin-top: -100px;
   letter-spacing: 3px;
 }
-/* line 90, ../sass/main.scss */
+/* line 96, ../sass/main.scss */
 #date p:nth-child(1) {
-  color: yellow;
-  font-size: 1em;
-  min-width: 200px;
+  background-color: white;
+  color: black;
 }
-/* line 94, ../sass/main.scss */
-#date p:nth-child(1):nth-child(1) span {
-  color: cornflowerblue;
+/* line 101, ../sass/main.scss */
+#date span {
+  letter-spacing: 3px;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 #bottom {
   position: absolute;
   margin-top: 0;
